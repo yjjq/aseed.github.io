@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aseed.im</id>
     <title>ASEED</title>
-    <updated>2020-03-08T14:32:31.632Z</updated>
+    <updated>2020-03-08T14:40:10.258Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aseed.im"/>
     <link rel="self" href="https://aseed.im/atom.xml"/>
@@ -11,16 +11,73 @@
     <icon>https://aseed.im/favicon.ico</icon>
     <rights>All rights reserved 2020, ASEED</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://aseed.im/post/hello-gridea/</id>
-        <link href="https://aseed.im/post/hello-gridea/">
+        <title type="html"><![CDATA[一粒种子]]></title>
+        <id>https://aseed.im/post/yi-li-chong-zi/</id>
+        <link href="https://aseed.im/post/yi-li-chong-zi/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <updated>2020-03-06T14:11:28.000Z</updated>
+        <summary type="html"><![CDATA[<p>世界上有一粒种子，像核桃那样大，绿色的外皮非常可爱。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <content type="html"><![CDATA[<p>世界上有一粒种子，像核桃那样大，绿色的外皮非常可爱。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designed Life]]></title>
+        <id>https://aseed.im/post/designed-life/</id>
+        <link href="https://aseed.im/post/designed-life/">
+        </link>
+        <updated>2020-02-22T04:09:18.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p><strong>Life is transient. Life is a bitch.</strong></p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p><strong>Life is transient. Life is a bitch.</strong></p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[性感小姐]]></title>
+        <id>https://aseed.im/post/ivIN94Pza/</id>
+        <link href="https://aseed.im/post/ivIN94Pza/">
+        </link>
+        <updated>2020-02-21T06:43:27.000Z</updated>
+        <summary type="html"><![CDATA[<p>Grace Kelly</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Grace Kelly</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[读书 : 呼吸]]></title>
+        <id>https://aseed.im/post/du-shu-hu-xi/</id>
+        <link href="https://aseed.im/post/du-shu-hu-xi/">
+        </link>
+        <updated>2020-02-19T04:28:23.000Z</updated>
+        <summary type="html"><![CDATA[<p>★ 《降临》原著小说作者，美国华裔科幻奇才特德·姜新作集。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>★ 《降临》原著小说作者，美国华裔科幻奇才特德·姜新作集。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome to Aseed]]></title>
+        <id>https://aseed.im/post/welcome-to-a-seed/</id>
+        <link href="https://aseed.im/post/welcome-to-a-seed/">
+        </link>
+        <updated>2020-02-18T12:12:59.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>这是一个黑洞</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>这是一个黑洞</strong></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[测试文章]]></title>
+        <id>https://aseed.im/post/ce-shi-wen-zhang/</id>
+        <link href="https://aseed.im/post/ce-shi-wen-zhang/">
+        </link>
+        <updated>2020-02-18T12:00:23.000Z</updated>
+        <summary type="html"><![CDATA[<p>春江花月夜</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>春江花月夜</p>
 ]]></content>
     </entry>
 </feed>
