@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aseed.im</id>
     <title>ASEED</title>
-    <updated>2020-03-08T14:53:16.944Z</updated>
+    <updated>2020-03-08T15:12:12.194Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aseed.im"/>
     <link rel="self" href="https://aseed.im/atom.xml"/>
