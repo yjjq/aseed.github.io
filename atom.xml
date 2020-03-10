@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aseed.im</id>
     <title>ASEED</title>
-    <updated>2020-03-09T07:44:54.236Z</updated>
+    <updated>2020-03-10T13:49:10.544Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aseed.im"/>
     <link rel="self" href="https://aseed.im/atom.xml"/>
@@ -34,6 +34,17 @@
         <content type="html"><![CDATA[<blockquote>
 <p><strong>Life is transient. Life is a bitch.</strong></p>
 </blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[性感小姐]]></title>
+        <id>https://aseed.im/post/ivIN94Pza/</id>
+        <link href="https://aseed.im/post/ivIN94Pza/">
+        </link>
+        <updated>2020-02-21T06:43:27.000Z</updated>
+        <summary type="html"><![CDATA[<p>Grace Kelly</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Grace Kelly</p>
 ]]></content>
     </entry>
     <entry>
