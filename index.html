@@ -292,6 +292,128 @@
   </div>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="https://dmz.life/media/scripts/main.js"></script>
+
+  <style>
+    
+
+    #text{
+        margin: 0 auto;
+    }
+
+    .text-box {
+        width: 350px;
+        height: 200px;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: lighter;;
+        text-transform: none;
+        position: relative;
+        overflow: hidden;
+        clip-path: url(#svgTextPath);
+        color: white;
+        background: #111111;
+
+    }
+
+    .dot {
+        display: inline-block;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0.9;
+    }
+
+    .dot:nth-child(1) {
+        width: 50px;
+        height: 50px;
+        background: rgb(30, 207, 148);
+        z-index: 8;
+        transform: translateX(-175px) translateY(-175px);
+    }
+
+    .dot:nth-child(2) {
+        width: 120px;
+        height: 120px;
+        background: rgb(28, 204, 195);
+        z-index: 7;
+        transform: translateX(-250px) translateY(-250px);
+    }
+
+    .dot:nth-child(3) {
+        width: 300px;
+        height: 300px;
+        background: rgb(18, 155, 247);
+        z-index: 6;
+        transform: translateX(-350px) translateY(-350px);
+    }
+
+    .t1 {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+            Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-weight: normal;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    .t2 {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+            Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-weight: normal;
+        font-size: 1rem;
+        text-transform: none;
+    }
+
+    .t3 {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+            Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-weight: lighter;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+</style>
+
+
+<div id="text" class="text-box">
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
+<svg height="0" width="0">
+<defs>
+    <clipPath id="svgTextPath">
+        <!-- textLength 文字的长度 此处对应容器的宽度  x y 为横纵坐标位置 -->
+        <text class="t1" x="125" y="15" textLength="100px">©2020. 独木舟</text>
+        <text class="t2" x="100" y="40" textLength="150px">好奇心驱动你的世界</text>
+        <text class="t2" x="100" y="65" textLength="150px">Powered by Gridea</text>
+        <text class="t3" x="143" y="100" textLength="66px">提供支持</text>
+        <text class="t3" x="130" y="120" textLength="90px">weetst.com</text>
+    </clipPath>
+</defs>
+</svg> 
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+<script>
+function move() {
+    let box = document.querySelector(".text-box");
+    let dt = document.querySelectorAll(".dot");
+    window.addEventListener("mousemove", function (e) {
+        for (let i = 0; i < dt.length; i++) {
+            //圆灯相对于 容器的坐标位置
+            let x = e.pageX - box.offsetLeft - dt[i].offsetWidth / 2;
+            let y = e.pageY - box.offsetTop - dt[i].offsetHeight / 2;
+            TweenLite.to(dt[i], i + 0.2, {
+                x: x,
+                y: y,
+                ease: Back.easeOut.config(1.7)
+            });
+        }
+    });
+}
+move()
+</script>
+
 </body>
 
 </html>
