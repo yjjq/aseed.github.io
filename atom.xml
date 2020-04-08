@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dmz.life</id>
     <title>独木舟</title>
-    <updated>2020-04-07T11:51:45.349Z</updated>
+    <updated>2020-04-08T12:58:19.216Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dmz.life"/>
     <link rel="self" href="https://dmz.life/atom.xml"/>
-    <subtitle>Life is fantastic.&lt;br&gt;I wish I could be more like you.</subtitle>
+    <subtitle>兔缺乌沉，我去你留，两个秋&lt;br/&gt;Life is fantastic. And I wish I could be more like you.</subtitle>
     <logo>https://dmz.life/images/avatar.png</logo>
     <icon>https://dmz.life/favicon.ico</icon>
     <rights>All rights reserved 2020, 独木舟</rights>
@@ -66,14 +66,14 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[欢迎来到独木舟]]></title>
+        <title type="html"><![CDATA[欢迎来到小破站]]></title>
         <id>https://dmz.life/post/welcome-to-a-seed/</id>
         <link href="https://dmz.life/post/welcome-to-a-seed/">
         </link>
         <updated>2020-02-18T12:12:59.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>这是一个黑洞</strong></p>
+        <summary type="html"><![CDATA[<p><strong>这是一个黑洞</strong> <strong>这也是一个留言板</strong></p>
 ]]></summary>
-        <content type="html"><![CDATA[<p><strong>这是一个黑洞</strong></p>
+        <content type="html"><![CDATA[<p><strong>这是一个黑洞</strong> <strong>这也是一个留言板</strong></p>
 ]]></content>
     </entry>
     <entry>
