@@ -1,121 +1,334 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
+
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="UTF-8" />
 <title>独木舟</title>
-<link rel="shortcut icon" href="https://dmz.life/favicon.ico">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"> -->
-<link rel="stylesheet" href="https://dmz.life/media/css/tailwind.css">
-<link rel="stylesheet" href="https://dmz.life/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="独木舟 - Atom Feed" href="https://dmz.life/atom.xml">
+<meta name="description" content="Darkness And Me">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+<link type='text/css' rel='stylesheet' href='https://dmz.life/styles/main.css' media='screen' />
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162965858-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'UA-162965858-1');
-  </script>
-    
+<script type="text/javascript" src='https://dmz.life/media/scripts/jquery.js'></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
 
-  <meta name="description" content="Darkness And Me" />
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162965858-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-162965858-1');
+    hljs.initHighlightingOnLoad();
 </script>
-
 </head>
+
 <body>
-  <div class="antialiased flex flex-col min-h-screen" id="app">
-    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
-  <div class="flex justify-end px-4">
-    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
-      <i class="ri-close-line" v-show="showMenu"></i>
-      <i class="ri-menu-3-line" v-show="!showMenu"></i>
-    </div>
-  </div>
-  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
-    
-      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        首页
-      </a>
-    
-      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        归档
-      </a>
-    
-      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        标签
-      </a>
-    
-      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        关于
-      </a>
-    
-      <a href="/post/link" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        友链
-      </a>
-    
-    <a href="https://dmz.life/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-      RSS
-    </a>
-  </nav>
+	<div class="layout theme-dark">
+		<div class="layout-header">
+
+	<div class="layout-header-main">
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+
+					<div class="navbar">
+
+						<div class="logo">
+							<a href="https://dmz.life">
+								<img class="logo"
+									src="https://dmz.life/media/images/site_avatar.png?v=1593862960363"
+									alt="">
+							</a>
+						</div>
+
+						<div class="menu d-md-inline-block d-none">
+							<ul class="layout-navigation-list">
+								
+								<li class="layout-navigation-item"><a title="首页"
+										href="/">首页</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="归档"
+										href="/archives">归档</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="标签"
+										href="/tags">标签</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="关于"
+										href="/post/about">关于</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="友链"
+										href="/post/link">友链</a>
+								</li>
+								
+							</ul>
+						</div>
+
+						<div class="item d-md-inline-block d-none">
+							<div class="search-icon">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</div>
+
+
+
+						<div class="d-md-inline-block d-none">
+							<div class="search-lightbox">
+								<div class="search-body">
+
+									<form id="gridea-search-form" data-update="1593862960363" action="/search/" class="search-form">
+										<input type="text" name="q" id="s" value="" class="search-field" placeholder="请输入搜索关键词" aria-label="请输入搜索关键词" required="">
+										<button type="submit" class="submit" aria-label="Submit">
+											<i class="fa fa-search" aria-hidden="true"></i>
+										</button>
+									</form>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="nav d-md-none d-inline-block">
+							<div class="trigger">
+								<i class="fa fa-bars layout-btn-toggle" aria-hidden="true"></i>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+
+
+		</div>
+	</div>
+
 </div>
-    <div class="max-w-4xl w-full mx-auto pt-32">
-      <div class="py-8 shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://dmz.life/tag/mHraq5tuv/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              文学（2）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://dmz.life/tag/rNhi2gccK5/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              读书（2）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://dmz.life/tag/U26bOuPog/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              随笔（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://dmz.life/tag/DANTT9Ma2b/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              英语（1）
-            </a>
-          </div>
-        
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://dmz.life/tag/2yW_ZpSfcu/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              照片（1）
-            </a>
-          </div>
-        
-      </div>
-      <footer class="py-12 text-center px-4 md:px-0" v-pre>
-  <a href="https://yhqz.me" target="_blank" rel="noopener noreferrer">阳和启蛰</a>
+		<div class="layout-collapse d-md-none">
+	<div class="layout-collapse-main">
+		<ul class="layout-collapse-list">
+			
+			<li class="layout-collapse-item"><a title="首页" href="/">首页</a></li>
+			
+			<li class="layout-collapse-item"><a title="归档" href="/archives">归档</a></li>
+			
+			<li class="layout-collapse-item"><a title="标签" href="/tags">标签</a></li>
+			
+			<li class="layout-collapse-item"><a title="关于" href="/post/about">关于</a></li>
+			
+			<li class="layout-collapse-item"><a title="友链" href="/post/link">友链</a></li>
+			
+
+		</ul>
+	</div>
+</div>
+
+		<div class="layout-content">
+			<div class="layout-content-main">
+				<div class="container">
+					<div class="row justify-content-lg-center">
+						<div class="col-12 col-lg-9">
+							<div class="layout-tags row">
+								
+								<div class="col-6 mb-3">
+									<div class="card">
+										<div class="card-header">
+											<div class="header-content">
+												<div class="title">教程</div>
+											</div>
+										</div>
+										<div class="card-body">
+											<div class="card-item">
+												<div class="list-content">
+													<div class="list-body">
+														<div class="title" href=""><span> 1 </span> 篇文章</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-6 mb-3">
+									<div class="card">
+										<div class="card-header">
+											<div class="header-content">
+												<div class="title">文学</div>
+											</div>
+										</div>
+										<div class="card-body">
+											<div class="card-item">
+												<div class="list-content">
+													<div class="list-body">
+														<div class="title" href=""><span> 2 </span> 篇文章</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-6 mb-3">
+									<div class="card">
+										<div class="card-header">
+											<div class="header-content">
+												<div class="title">读书</div>
+											</div>
+										</div>
+										<div class="card-body">
+											<div class="card-item">
+												<div class="list-content">
+													<div class="list-body">
+														<div class="title" href=""><span> 2 </span> 篇文章</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-6 mb-3">
+									<div class="card">
+										<div class="card-header">
+											<div class="header-content">
+												<div class="title">随笔</div>
+											</div>
+										</div>
+										<div class="card-body">
+											<div class="card-item">
+												<div class="list-content">
+													<div class="list-body">
+														<div class="title" href=""><span> 1 </span> 篇文章</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-6 mb-3">
+									<div class="card">
+										<div class="card-header">
+											<div class="header-content">
+												<div class="title">英语</div>
+											</div>
+										</div>
+										<div class="card-body">
+											<div class="card-item">
+												<div class="list-content">
+													<div class="list-body">
+														<div class="title" href=""><span> 1 </span> 篇文章</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-6 mb-3">
+									<div class="card">
+										<div class="card-header">
+											<div class="header-content">
+												<div class="title">照片</div>
+											</div>
+										</div>
+										<div class="card-body">
+											<div class="card-item">
+												<div class="list-content">
+													<div class="list-body">
+														<div class="title" href=""><span> 1 </span> 篇文章</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-6 mb-3">
+									<div class="card">
+										<div class="card-header">
+											<div class="header-content">
+												<div class="title">DMZ</div>
+											</div>
+										</div>
+										<div class="card-body">
+											<div class="card-item">
+												<div class="list-content">
+													<div class="list-body">
+														<div class="title" href=""><span> 2 </span> 篇文章</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+			<div class="layout-footer">
+
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+					<div class="footer">
+						<div class="row">
+							<div class="col-12 col-md-9">
+								<div class="footer-copy">
+									
+									<span>© 2020 </span>
+									<a href="https://dmz.life" title="独木舟">独木舟</a>
+									<span class="px-2">⋅</span>
+									
+									<a href="https://yhqz.me" target="_blank" rel="noopener noreferrer">阳和启蛰</a>
  丨 <a href="https://analytics.google.com/analytics/web/#/report-home/a162965858w228270164p215306432" target="_blank" rel="noopener noreferrer">Analytics</a> 丨 <a href="https://console.leancloud.app/applist.html#/apps" target="_blank" rel="noopener noreferrer">LeanClud</a>
-</footer>
-    </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://dmz.life/media/scripts/main.js"></script>
+									<div class="footer-icp d-none d-sm-inline-block">
+										<span class="px-2">⋅</span>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 d-none d-md-block">
+								<div class="footer-links">
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src='https://dmz.life/media/scripts/main.js'></script>
+	
+	</div>
 </body>
+
 </html>
