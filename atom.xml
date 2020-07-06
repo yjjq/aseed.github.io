@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dmz.life</id>
-    <title>独木舟</title>
-    <updated>2020-07-04T12:25:32.495Z</updated>
+    <title>D.M.Z.</title>
+    <updated>2020-07-06T01:39:55.247Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dmz.life"/>
     <link rel="self" href="https://dmz.life/atom.xml"/>
     <subtitle>Darkness And Me</subtitle>
     <logo>https://dmz.life/images/avatar.png</logo>
     <icon>https://dmz.life/favicon.ico</icon>
-    <rights>All rights reserved 2020, 独木舟</rights>
+    <rights>All rights reserved 2020, D.M.Z.</rights>
     <entry>
         <title type="html"><![CDATA[个人博客搭建指南：基础篇]]></title>
         <id>https://dmz.life/post/ge-ren-bo-ke-da-jian-zhi-nan-ji-chu-pian/</id>
