@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dmz.life</id>
-    <title>D.M.Z.</title>
-    <updated>2020-07-06T01:39:55.247Z</updated>
+    <title>DMZ</title>
+    <updated>2020-07-15T15:40:33.732Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dmz.life"/>
     <link rel="self" href="https://dmz.life/atom.xml"/>
-    <subtitle>Darkness And Me</subtitle>
+    <subtitle>Darkness Me Zeal</subtitle>
     <logo>https://dmz.life/images/avatar.png</logo>
     <icon>https://dmz.life/favicon.ico</icon>
-    <rights>All rights reserved 2020, D.M.Z.</rights>
+    <rights>All rights reserved 2020, DMZ</rights>
     <entry>
         <title type="html"><![CDATA[个人博客搭建指南：基础篇]]></title>
         <id>https://dmz.life/post/ge-ren-bo-ke-da-jian-zhi-nan-ji-chu-pian/</id>
@@ -23,12 +23,12 @@
         <link href="https://dmz.life/post/zhong-hua-ming-zu-tong-yi-guo-jia-si-xiang/">
         </link>
         <updated>2020-04-11T08:02:24.000Z</updated>
-        <summary type="html"><![CDATA[<h1 id="从天下国家到民族国家">《从“天下”国家到民族国家》</h1>
+        <summary type="html"><![CDATA[<h3 id="从天下国家到民族国家">《从“天下”国家到民族国家》</h3>
 <blockquote>
 <p>这本著作自2001年问世至今已近20年，风靡不绝。其在论述上精辟犀利，而且紧密联系读者生活实际。这本书完整联系地叙说了从夏商周到现代中国的形成过程，值得一读。</p>
 </blockquote>
 ]]></summary>
-        <content type="html"><![CDATA[<h1 id="从天下国家到民族国家">《从“天下”国家到民族国家》</h1>
+        <content type="html"><![CDATA[<h3 id="从天下国家到民族国家">《从“天下”国家到民族国家》</h3>
 <blockquote>
 <p>这本著作自2001年问世至今已近20年，风靡不绝。其在论述上精辟犀利，而且紧密联系读者生活实际。这本书完整联系地叙说了从夏商周到现代中国的形成过程，值得一读。</p>
 </blockquote>
