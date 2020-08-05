@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dmz.life</id>
-    <title>DMZ</title>
-    <updated>2020-08-04T02:17:56.428Z</updated>
+    <title>DailyMeZone</title>
+    <updated>2020-08-05T16:05:33.501Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dmz.life"/>
     <link rel="self" href="https://dmz.life/atom.xml"/>
-    <subtitle>ACong, just a dashuaibi.</subtitle>
+    <subtitle>阿琮， 中国安阳。&lt;br&gt; 
+&lt;br&gt; 
+ACong. AnYang,  China.</subtitle>
     <logo>https://dmz.life/images/avatar.png</logo>
     <icon>https://dmz.life/favicon.ico</icon>
-    <rights>All rights reserved 2020, DMZ</rights>
+    <rights>All rights reserved 2020, DailyMeZone</rights>
     <entry>
         <title type="html"><![CDATA[个人博客搭建指南：基础篇]]></title>
         <id>https://dmz.life/post/ge-ren-bo-ke-da-jian-zhi-nan-ji-chu-pian/</id>
         <link href="https://dmz.life/post/ge-ren-bo-ke-da-jian-zhi-nan-ji-chu-pian/">
         </link>
         <updated>2020-05-16T12:15:55.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>此指南是搭建静态网页的，不涉及高深知识。不需要服务器和编程知识。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>此指南是搭建静态网页的，不涉及高深知识。不需要服务器和编程知识。</p>
+</blockquote>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[中华名族统一国家思想]]></title>
@@ -23,13 +33,6 @@
         <link href="https://dmz.life/post/zhong-hua-ming-zu-tong-yi-guo-jia-si-xiang/">
         </link>
         <updated>2020-04-11T08:02:24.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[生活是美妙的]]></title>
-        <id>https://dmz.life/post/sheng-huo-shi-mei-miao-de/</id>
-        <link href="https://dmz.life/post/sheng-huo-shi-mei-miao-de/">
-        </link>
-        <updated>2020-03-13T12:58:55.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[一粒种子]]></title>
@@ -73,17 +76,6 @@
         <summary type="html"><![CDATA[<p>★ 《降临》原著小说作者，美国华裔科幻奇才特德·姜新作集。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>★ 《降临》原著小说作者，美国华裔科幻奇才特德·姜新作集。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[欢迎来到小破站]]></title>
-        <id>https://dmz.life/post/welcome-to-a-seed/</id>
-        <link href="https://dmz.life/post/welcome-to-a-seed/">
-        </link>
-        <updated>2020-02-18T12:12:59.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>这是一个黑洞</strong> <strong>这也是一个留言板</strong></p>
-]]></summary>
-        <content type="html"><![CDATA[<p><strong>这是一个黑洞</strong> <strong>这也是一个留言板</strong></p>
 ]]></content>
     </entry>
     <entry>

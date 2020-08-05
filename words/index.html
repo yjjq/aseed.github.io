@@ -1,14 +1,14 @@
-<html>
-  <head>
-  <meta charset="utf-8" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>教程 | DailyMeZone</title>
+<title>碎碎念</title>
 <link rel="shortcut icon" href="https://dmz.life/favicon.ico?v=1596643526393">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://dmz.life/styles/main.css">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="alternate" type="application/atom+xml" title="教程 | DailyMeZone - Atom Feed" href="https://dmz.life/atom.xml">
 
 
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -28,8 +28,8 @@
 </script>
 
 
-  </head>
-  <body>
+</head>
+<body>
     <div class="site-header">
   
   <h1 class="site-title">
@@ -169,63 +169,64 @@ ACong. AnYang,  China.
       */
     }
   </script>
-    <div class="main">
+    <div class="main" id="app">
       <div class="main-content">
         
-        <div class="current-tag-container">
-            <h2 class="title">
-              <i class="ri-quill-pen-line"></i>  
-              教程
-            </h2> 
+      
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              碎碎念
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2020 ·
+              </time> 
+            </div>
+            
+            <div class="post-content">  
+              
+                <script>
+                    var appID = "I28Sy8OI9Qqg3zWHE1ld4Kea-MdYXbMMI";
+                    var appKEY = "YpFEKI2kGLh01v7aQJwEkrEe";
+                    var bgimg = "https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp";
+                    var color1 = "#fffef8";
+                    var color2 = "#eef7f2";
+                    var color3 = "#000000";
+                
+                
+                
+                </script>
+                
+                    <div id="artitalk_main"></div>
+                
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/artitalk"></script>
+
+            </div>
+          </article>
+          <div id="eof"><span>EOF</span></div> 
+            <!-- Share to Twitter, Weibo, Telegram -->
+          <div class="share">
+            <div class="share-items-i">
+              <i class="ri-share-forward-line"></i>
+            </div>
+            <div class="share-items" @click="shareToTwitter">
+              <i class="ri-twitter-line"></i>
+            </div>
+            <div class="share-items" @click="shareToWeibo">
+              <i class="ri-weibo-line"></i>
+            </div>
+            <div class="share-items" @click="shareToTelegram">
+              <i class="ri-telegram-line"></i>
+            </div>
+          </div>
+
         </div>
-        <div class="post-container">
-  
-    <article class="post">
-
-      
-    <div class="post-l">    
-      <a href="https://dmz.life/post/ge-ren-bo-ke-da-jian-zhi-nan-ji-chu-pian/">
-        <h2 class="post-title">个人博客搭建指南：基础篇</h2>
-      </a>
-
-      <div class="post-abstract">
-        <blockquote>
-<p>此指南是搭建静态网页的，不涉及高深知识。不需要服务器和编程知识。</p>
-</blockquote>
-
-      </div>
-
-      <div class="post-info">
-        <time class="post-time"> 
-          <i class="i-info  ri-calendar-2-line"></i>
-           2020-05-16 
-        </time>
         
-          <a href="https://dmz.life/tag/jiao-cheng/" class="post-tag">
-            <i class="i-info ri-quill-pen-line"></i>
-             教程
-          </a>
+
         
-      </div>
-    </div>
-
-    <div class="post-r">
-      
-        <a href="https://dmz.life/post/ge-ren-bo-ke-da-jian-zhi-nan-ji-chu-pian/" class="post-feature-image">
-          <img src="https://cdn.jsdelivr.net/gh/yjjq/imgbed/img/20200805231518.png" alt="个人博客搭建指南：基础篇">
-        </a>
-      
-    </div>
-      
-
-    </article>
-  
-</div>
-
-        <div class="pagination-container">
-  
-  
-</div>
+            
+        
 
         <div class="site-footer">
 
@@ -261,6 +262,12 @@ ACong. AnYang,  China.
 </script>
 
       </div>
+
+      <!-- Back to top -->
+      <div class="btt" @click="backToUp" v-show="scrolled">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z"/></svg>
+      </div>
+      
     </div>
-  </body>
+</body>
 </html>
