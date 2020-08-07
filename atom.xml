@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dmz.life</id>
     <title>DailyMeZone</title>
-    <updated>2020-08-07T15:43:29.728Z</updated>
+    <updated>2020-08-07T16:05:59.087Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dmz.life"/>
     <link rel="self" href="https://dmz.life/atom.xml"/>
@@ -17,6 +17,10 @@ ACong. AnYang,  China.</subtitle>
         <link href="https://dmz.life/post/ruan-jian-shou-cang/">
         </link>
         <updated>2020-08-07T15:31:35.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>在这里列一些软件，移动端和桌面端都有，都是平时偶尔看到的软件，不论用到与否，知道总是好的</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>在这里列一些软件，移动端和桌面端都有，都是平时偶尔看到的软件，不论用到与否，知道总是好的</strong></p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[个人博客搭建指南：基础篇]]></title>
