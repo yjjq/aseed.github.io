@@ -2,12 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dmz.life</id>
     <title>DailyMeZone</title>
-    <updated>2020-08-05T16:05:33.501Z</updated>
+    <updated>2020-08-07T10:33:57.123Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dmz.life"/>
     <link rel="self" href="https://dmz.life/atom.xml"/>
     <subtitle>阿琮， 中国安阳。&lt;br&gt; 
-&lt;br&gt; 
 ACong. AnYang,  China.</subtitle>
     <logo>https://dmz.life/images/avatar.png</logo>
     <icon>https://dmz.life/favicon.ico</icon>
