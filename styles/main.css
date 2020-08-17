@@ -683,7 +683,6 @@ td {
 }
 .post-detail .post .post-content img {
   display: block;
-  box-shadow: 0 0 30px #eee;
   max-width: 100%;
   border-radius: 2px;
   margin: 24px auto;
@@ -714,7 +713,8 @@ td {
   line-height: 1.375;
 }
 .post-detail .post .post-content blockquote {
-  background: #f3f5f7;
+  background: #cccccc;
+  color: #666666;
   padding: 16px;
   border-left: 2px solid #006cff;
   margin-bottom: 16px;
@@ -859,6 +859,9 @@ td {
 @media (prefers-color-scheme: dark) {
   .next {
     color: #999;
+  }
+  .share-items:hover {
+    background-color: #cccccc;
   }
 }
 .archives-container {
