@@ -513,6 +513,10 @@ td {
     margin-top: 6px;
     margin-bottom: 6px;
   }
+  .menu {
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+  }
   .search {
     width: 100%;
     margin-top: 6px;
@@ -628,7 +632,9 @@ td {
     padding: 0;
   }
   .post-container .post .post-abstract {
+    max-height: 100px;
     padding: 16px 0;
+    overflow: hidden;
   }
   .post-container .post .post-feature-image img {
     padding: 0;
@@ -1878,4 +1884,10 @@ body {
 i {
   vertical-align: text-bottom;
   font-size: 16px;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #333;
+    color: #999;
+  }
 }
