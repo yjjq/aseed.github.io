@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dmz.life</id>
     <title>DailyMeZone</title>
-    <updated>2020-08-17T07:27:22.198Z</updated>
+    <updated>2021-01-30T07:10:50.466Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dmz.life"/>
     <link rel="self" href="https://dmz.life/atom.xml"/>
-    <subtitle>阿琮， 中国安阳。&lt;br&gt; 
-ACong. AnYang,  China.</subtitle>
+    <subtitle>中国&lt;br&gt; 
+ China</subtitle>
     <logo>https://dmz.life/images/avatar.png</logo>
     <icon>https://dmz.life/favicon.ico</icon>
-    <rights>All rights reserved 2020, DailyMeZone</rights>
+    <rights>All rights reserved 2021, DailyMeZone</rights>
     <entry>
         <title type="html"><![CDATA[软件收藏]]></title>
         <id>https://dmz.life/post/ruan-jian-shou-cang/</id>
